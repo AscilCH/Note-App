@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Certainly! Below is a more styled version of your `README.md` using Markdown headers, bold text, and emojis to make it more visually appealing:
 
 ---
@@ -123,3 +124,7 @@ If you have any questions or feedback, feel free to reach out at `ascil.chtioui@
 - Inspiration from horse riding and the need to keep track of all those training tips!
 
 ---
+=======
+# NoteApplication
+# NoteApplication
+>>>>>>> a5a8681 (first commit)
