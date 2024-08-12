@@ -1,0 +1,92 @@
+/* Global styles for the body to apply gradient background */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 25%, #b1ff92 50%, #a0c4ff 75%, #ffcc80 100%);
+  background-size: 400% 400%;
+  animation: gradientBackground 5s ease infinite; /* Increased animation duration */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #213547;
+  position: relative; /* Ensure horse position is relative to the body */
+}
+
+/* Gradient animation */
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Center the container */
+.note-app-container {
+  max-width: 800px;  /* Increased width */
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;  /* Increased padding for more space */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px; /* Adjust border-radius as needed */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Adjust shadow properties */
+  position: relative; /* Ensure horse position is relative to this container */
+}
+
+
+/* Add media query for responsiveness */
+@media (max-width: 600px) {
+  .note-app-container {
+    max-width: 90%;
+    padding: 20px;  /* Adjusted padding for small screens */
+  }
+}
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+}
+
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.task-buttons .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.task-buttons .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.text-truncate {
+  max-width: 200px; /* Adjust as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Custom styles for horse animation */
+.horse {
+  height: 100px; /* Adjust as needed */
+  transition: transform 2s linear;
+  margin: auto; /* Center horizontally */
+  display: block; /* Ensures margin: auto works */
+}
+
+
+.move {
+  transform: translateX(+75%) !important; /* Move from right to left */
+}
