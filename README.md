@@ -1,4 +1,4 @@
-🐎 Horse Notes 🐎
+#🐎 Horse Notes 🐎
 Welcome to Horse Notes! This app is a simple and elegant note-taking application built using React for the front-end and Node.js for the back-end. Whether you’re jotting down your thoughts, keeping track of your to-do list, or documenting your horse riding experiences, Horse Notes is here to help you stay organized.
 
 "Riding a horse is not just a sport, it's an art." - Your personal note-taker for everything, from code snippets to horse training schedules.
